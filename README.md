@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Course Material and FAQ for my Complete JavaScript Course
 
 This repo contains starter files and final code for all sections and projects contained in the course.
@@ -65,3 +66,9 @@ Use starter code to start each section, and **final code to compare it with your
 ### Q13: Do you accept pull requests?
 
 **A:** No, for the simple reason that I want this repository to contain the _exact_ same code that is shown in the videos. However, please feel free to add an issue if you found one.
+=======
+# Complete-JavaScript-Course-2021-Udemy
+
+### Description
+    'Just coursework for Udemy "Complete JavaScript 2021"
+>>>>>>> db189c1 (Started JS-Fundamentals)
