@@ -1,6 +1,11 @@
 //////////////////////////////////
 //# Coding Challenge #1
 
+console.log('//#########################//')
+console.log('//#### Coding Challenge #1 ####')
+console.log('//#########################//')
+console.log('    ')// blank line
+
 /*
     Mark and John are trying to compare their BMI (Body Mass Index), which is calculated using the formula:
     BMI = mass / height ** 2 = mass / (height * height).
@@ -19,11 +24,11 @@
 
 */
 //# TEST 1
-let markWeight = 78
-let markHeight = 1.69
+const markWeight = 78
+const markHeight = 1.69
 
-let johnWeight = 92;
-let johnHeight = 1.95
+const johnWeight = 92;
+const johnHeight = 1.95
 
 //# TEST 2
 // let markWeight = 78
@@ -32,6 +37,8 @@ let johnHeight = 1.95
 // let johnWeight = 92;
 // let johnHeight = 1.95
 
+
+//# function version
 function calcBMI (mass, height) {
     let BMI = mass / height ** 2; 
     return BMI
@@ -46,5 +53,9 @@ console.log("BMI-ONE")
 console.log("Mark", calcBMI(markWeight, markHeight));
 console.log("John", calcBMI(johnWeight, johnHeight));
 
+console.log("BMI-TWO") 
+console.log("Mark", calcBMI2(markWeight, markHeight));
+console.log("John", calcBMI2(johnWeight, johnHeight));
+
 let markHigherBMI = calcBMI(markWeight, markHeight) > calcBMI(johnWeight, johnHeight);
-console.log(markHigherBMI) 
+console.log("markHigherBMI ", markHigherBMI) 
