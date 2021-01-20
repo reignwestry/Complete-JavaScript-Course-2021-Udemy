@@ -71,10 +71,13 @@ console.log(koalaScore);
 
 
 if (dolphinScore > koalaScore && dolphinScore >= 100 ) { //dolphins have a higher score
-   console.log(`Dolphins WIN! Dolphins ${dolphinScore} Koalas ${koalaScore}`);
+   console.log(`Dolphins WIN the trophy! Dolphins ${dolphinScore} Koalas ${koalaScore}`);
+
 } else if (koalaScore > dolphinScore && koalaScore >= 100 ) {  //koalas have a higher score
-   console.log(`Koalas WIN! Dolphins ${dolphinScore} Koalas ${koalaScore}`);
+   console.log(`Koalas WIN the trophy! Dolphins ${dolphinScore} Koalas ${koalaScore}`);
+
 } else if ( koalaScore === dolphinScore || koalaScore && dolphinScore <= 100 ) { // same score or under 100 They
    // have the same score
    console.log(`IT WAS A DRAW! Dolphins ${dolphinScore} Koalas ${koalaScore}`);
+
 }
