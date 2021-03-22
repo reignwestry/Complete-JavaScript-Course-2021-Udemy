@@ -1,6 +1,9 @@
 //# FUNCTION declarations AND expressions
 //#======================================
 
+    //* DOESNT MATTER WHICH YOU USE
+    //? REMEMBER HOW TO USE AND DISTINGUISH
+
     //# FUNCTION DECLARATION
     //#=====================
     function calcAge1(birthYeah) {
@@ -13,6 +16,9 @@
 
     //# FUNCTION EXPRESSION
     //#====================
+
+        //! CANNOT BE CALLED BEFORE DECLARING
+        
 
 
     //# ANONYMOUS FUNCTION === function without a name
