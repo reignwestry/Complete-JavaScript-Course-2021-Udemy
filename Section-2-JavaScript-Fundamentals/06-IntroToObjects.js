@@ -36,11 +36,11 @@ console.log(jonas['last' + nameKey]);  // calls lastName
 // const interestedIn = prompt('What do you want to know about Jonas? Choose between firstName, lastName, age, job, and friends')
 // console.log(jonas[interestedIn]) // adds jonas. + interestedIn THEN calls
 
-// if (jonas[interestedIn]) {
-//     console.log(jonas[interestedIn])
-// } else {
-//     console.log('Wrong request! Choose between firstName, lastName, age, job, and friends ')
-// }
+const license = if (jonas[interestedIn]) {
+    console.log(jonas[interestedIn])
+} else {
+    console.log('Wrong request! Choose between firstName, lastName, age, job, and friends ')
+}
 
 //# ADD a properties to object
 jonas.location = 'Portugal';
