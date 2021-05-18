@@ -56,19 +56,8 @@ let secretNumber = Number(Math.trunc(Math.random() * 20) + 1);//# sets the range
 //# grabs score value, converts to a number and stores score
 let score = 20;
 
+let highScore = Number(document.querySelector('.highscore').textContent);
 
-
-
-function updateHighScore() {
-    let highScore = Number(document.querySelector('.highscore').textContent);
-    //? ADD 1 to highScore
-    highScore++;
-    document.querySelector('.highscore').textContent = highScore;
-    
-    console.log(`HIGHSCORE: ${highScore}`);
- 
-
-}
 
 //# CHECK CLICK EVENT Handler
 //#----------------------
@@ -103,7 +92,13 @@ document.querySelector('.check').addEventListener(
                 document.querySelector('body').style.backgroundColor = '#60b347';
                 document.querySelector('.number').style.width = '30rem';
                 console.log('Player Wins!')
-                updateHighScore();
+                
+                //? Update High Score
+                if (score > highScore) {
+                    highScore = score;
+                    document.querySelector('.highscore').textContent = highScore;
+                }
+                
                 
             } else if (guess > secretNumber) {
                 document.querySelector('.message').textContent = 'Too High!';
