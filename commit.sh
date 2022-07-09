@@ -1,5 +1,5 @@
 #!/bin/sh
-cd D:/.PROJECTS/.Udemy-Courses/.Udemy-JS-COURSE-2021/
+cd D:/.PROJECTS/.Udemy-Courses/.Udemy-JS-COURSE-2021/commit.sh
 git add --all
 timestamp() {
   date +"at %H:%M:%S on %d/%m/%Y"
