@@ -1,5 +1,11 @@
 # UDEMY- The Complete JavaScript Course 2021: From Zero to Expert!
 
+## GIT REPO: 
+`https://https://github.com/reignwestry/Complete-JavaScript-Course-2021-Udemy`
+
+## Description:
+    A repo of all of my work for this course
+
 ## Chapters
 #### 01 - JavaScript Fundamentals Part 1
 #### 02 - JavaScript Fundamentals Part 2
